@@ -189,6 +189,111 @@ header nav ul li a:hover{
 /* Section 2 */
 
 .sec2{
-    padding: 5rem 0;
+    padding: 4.25rem 0;
     width: 100%;
+}
+
+.sec2 .container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title .ligne{
+    width: 70px;
+    height: 2px;
+    background: rgb(238, 65, 12);
+    margin-top: 0.7rem;
+}
+
+.sec2 .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+.sec2 .container .content .card{
+    margin: 10px;
+    padding: 1.5rem 0.7rem;
+    background: white;
+    width: 340px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.sec2 .container .content .card .rond{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    border: 1px solid rgb(224, 224, 224);
+    transition: 0.3s;
+}
+
+.sec2 .container .content .card:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.sec2 .container .content .card:hover .rond{
+    background: rgb(238, 65, 12);
+}
+
+.sec2 .container .content .card:hover .rond i{
+    color: white;
+}
+
+.sec2 .container .content .card .rond i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.9em;
+    color: rgb(238, 65, 12);
+    transition: 0.4s;
+}
+
+.sec2 .container .content .card h2{
+    font-size: 1.1em;
+    margin: 1.5rem 0 1rem 0;
+    color: #333;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.sec2 .container .content .card h2:hover{
+    color: rgb(238, 65, 12);
+}
+
+.sec2 .container .content .card p{
+    color: grey;
+    line-height: 25px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 1080px){
+    .sec2 .container .content{
+        justify-content: center;
+    }
 }
