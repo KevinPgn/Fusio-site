@@ -101,7 +101,7 @@ header nav ul li a:hover{
     line-height: 25px;
 }
 
-.sec1 .container .left .btn .button{
+.button{
     padding: 0.7rem 2rem;
     height: 45px;
     border-radius: 30px;
@@ -111,13 +111,13 @@ header nav ul li a:hover{
     outline: none;
 }
 
-.sec1 .container .left .btn .button.red{
+.button.red{
     background: rgb(238, 65, 12);
     color: white;
     transition: 0.3s;
 }
 
-.sec1 .container .left .btn .button.normal{
+.button.normal{
     margin-left: 1rem;
     background: white;
     border: 2px solid rgb(238, 65, 12);
@@ -125,7 +125,7 @@ header nav ul li a:hover{
     transition: all 0.3s ease-in-out;
 }
 
-.sec1 .container .left .btn .normal:hover{
+ .normal:hover{
     background: rgb(238, 65, 12);
     color: white;
 }
@@ -297,3 +297,195 @@ header nav ul li a:hover{
         justify-content: center;
     }
 }
+
+
+/* Section 3 */
+
+.sec3{
+    width: 100%;
+    padding: 3.25rem 0;
+    background: #f9f9f9;
+}
+
+.sec3 .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3 .container .left{
+    width: 570px;
+    padding: 0 5px;
+}
+
+.sec3 .container .right{
+    padding: 0 10px;
+}
+
+.sec3 .container .right img{
+    width: 550px;
+}
+
+.sec3 .container .left h4{
+    color: grey;
+    font-size: 0.9em;
+}
+
+.sec3 .container .left h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.sec3 .container .left p{
+    margin-bottom: 2rem;
+    color: grey;
+    font-weight: 600;
+    line-height: 26px;
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 1000px){
+    .sec3 .container .right img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .sec3 .container .right img{
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width: 700px){
+    .sec3 .container{
+        flex-direction: column;
+    }
+
+    .sec3 .container .left{
+       width: 100%; 
+       padding: 0 20px;
+       margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .sec3 .container .right img{
+        width: 100%;
+    }
+}
+
+
+/* Section 4 */
+
+.sec4{
+    width: 100%;
+    padding: 4.25rem 0;
+    background: rgb(255, 255, 255);
+}
+
+.sec4 .title{
+    margin-bottom: 3em;
+}
+
+.sec4 .container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec4 .container .left,
+.sec4 .container .mid,
+.sec4 .container .right{
+    max-width: 33,33%;
+    padding: 0 10px;
+}
+
+.sec4 .container .left .block{
+    margin-bottom: 1.5rem;
+    display: flex;
+    text-align: right;
+}
+
+.sec4 .container .left .block .droite{
+    margin-left: 1rem;
+}
+
+.sec4 .container .mid img{
+    width: 350px;
+}
+
+.sec4 .container .right .block{
+    margin-bottom: 1.5rem;
+    display: flex;
+    text-align: left;
+}
+
+.sec4 .container .right .block .droite{
+    margin-left: 1rem;
+}
+
+.sec4 .container .block i{
+    font-size: 1.6em;
+    color: rgb(238, 65, 12);
+}
+
+.sec4 .container .block{
+    padding: 20px 33px;
+    width: 100%;
+    background: white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.sec4 .container .block:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.sec4 .container .block:hover h3{
+    color: rgb(238, 65, 12);
+}
+
+.sec4 .container .block h3{
+    margin-bottom: 0.9rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sec4 .container .block p{
+    color: grey;
+    font-weight: 600;
+    opacity: .6;
+}
+
+
+@media screen and (max-width: 950px){
+    .sec4 .container{
+        flex-direction: column;
+    }
+
+    .sec4 .container .block{
+        padding: 40px;
+    }
+
+    .sec4 .container .mid{
+        margin: 1.5em 0;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .sec4 .container .mid img{
+        width: 100%;
+    }
+}
+
+
+/* Section 5 */
