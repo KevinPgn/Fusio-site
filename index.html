@@ -8,7 +8,9 @@
     <title>Fusion Site</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <script src="app.js" defer></script>
+    <script src="slider.js" defer></script>
 </head>
 
 <body>
@@ -194,11 +196,261 @@
 
 
     <section class="sec5">
+        <div class="title">
+            <h2>Meet Our Team</h2>
+            <div class="ligne"></div>
+        </div>
+        <div class="container">
+
+            <div class="card">
+                <div class="left">
+                    <img src="./img/team/team-01.png" alt="team-01">
+                </div>
+                <div class="right">
+                    <h2>DAVID SMITH</h2>
+                    <h4>Front-end Developer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>
+
+                    <div class="social">
+                        <i class="fab fa-facebook-f" style='color: rgb(41, 41, 231)'></i>
+                        <i class="fab fa-twitter" style="color: rgb(55, 164, 236)"></i>
+                        <i class="fab fa-instagram" style="color: rgb(206, 31, 206);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <img src="./img/team/team-02.png" alt="team-02">
+                </div>
+                <div class="right">
+                    <h2>ERIC PETERSON</h2>
+                    <h4>Product Designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>
+
+                    <div class="social">
+                        <i class="fab fa-facebook-f" style='color: rgb(41, 41, 231)'></i>
+                        <i class="fab fa-twitter" style="color: rgb(55, 164, 236)"></i>
+                        <i class="fab fa-instagram" style="color: rgb(206, 31, 206);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <img src="./img/team/team-03.png" alt="team-03">
+                </div>
+                <div class="right">
+                    <h2>DURWIN BABB</h2>
+                    <h4>Lead Designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>
+
+                    <div class="social">
+                        <i class="fab fa-facebook-f" style='color: rgb(41, 41, 231)'></i>
+                        <i class="fab fa-twitter" style="color: rgb(55, 164, 236)"></i>
+                        <i class="fab fa-instagram" style="color: rgb(206, 31, 206);"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="left">
+                    <img src="./img/team/team-04.png" alt="team-04">
+                </div>
+                <div class="right">
+                    <h2>MARJIN OTTE</h2>
+                    <h4>Lead Designer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.</p>
+
+                    <div class="social">
+                        <i class="fab fa-facebook-f" style='color: rgb(41, 41, 231)'></i>
+                        <i class="fab fa-twitter" style="color: rgb(55, 164, 236)"></i>
+                        <i class="fab fa-instagram" style="color: rgb(206, 31, 206);"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec6">
+        <div class="title">
+            <h2>Pricing</h2>
+            <div class="ligne"></div>
+        </div>
+        <div class="container">
+            <div class="price">
+                <div class="rond">
+                    <i class="fas fa-box"></i>
+                </div>
+
+                <div class="dollars">
+                    <p><span>$10</span>/mo</p>
+                </div>
+
+                <h3>Pro</h3>
+
+                <div class="avantages">
+                    <p>1 user</p>
+                    <p>10 GB storage</p>
+                    <p>Email support</p>
+                    <p>Lifetime updates</p>
+                </div>
+
+                <button class="button red">BUY NOW</button>
+            </div>
+            <!-- second price -->
+            <div class="price special">
+                <div class="rond active">
+                    <i class="fas fa-hand-holding-water"></i>
+                </div>
+
+                <div class="dollars">
+                    <p><span>$35</span>/mo</p>
+                </div>
+
+                <h3>PLUS</h3>
+
+                <div class="avantages">
+                    <p>10 user</p>
+                    <p>30 GB storage</p>
+                    <p>Priority Email support</p>
+                    <p>Lifetime updates</p>
+                </div>
+
+                <button class="button red">BUY NOW</button>
+            </div>
+            <!-- Troisième price -->
+            <div class="price">
+                <div class="rond">
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="dollars">
+                    <p><span>$150</span>/mo</p>
+                </div>
+
+                <h3>PREMIUM</h3>
+
+                <div class="avantages">
+                    <p>Unlimited users</p>
+                    <p>Unlimited storage</p>
+                    <p>24/7 support</p>
+                    <p>Lifetime updates</p>
+                </div>
+
+                <button class="button red">BUY NOW</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec7">
+        <div class="container">
+            <div class="slider multiple-items">
+                <div class="avis">
+                    <img src="./img/testimonial/img1.jpg" alt="testimonial-profile-image">
+                    <h2>DAVID SMITH</h2>
+                    <h4>Creative Head</h4>
+                    <p>Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis
+                        nec, tincidunt ligula.</p>
+
+                    <div class="stars">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+
+                </div>
+                <div class="avis">
+                    <img src="./img/testimonial/img2.jpg" alt="testimonial-profile-image">
+                    <h2>DOMENI GESSON</h2>
+                    <h4>Awesome Technology Co.</h4>
+                    <p>Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis
+                        nec, tincidunt ligula.</p>
+
+                    <div class="stars">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                </div>
+                <div class="avis">
+                    <img src="./img/testimonial/img3.jpg" alt="testimonial-profile-image">
+                    <h2>DOMMENI ALBERT</h2>
+                    <h4>Nesnal Design Co.</h4>
+                    <p>Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis
+                        nec, tincidunt ligula.</p>
+
+                    <div class="stars">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                </div>
+                <div class="avis">
+                    <img src="./img/testimonial/img4.jpg" alt="testimonial-profile-image">
+
+                    <h2>FERNANDA ANAYA</h2>
+                    <h4>Developer</h4>
+                    <p>Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis
+                        nec, tincidunt ligula.</p>
+
+                    <div class="stars">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                </div>
+                <div class="avis">
+                    <img src="./img/testimonial/img3.jpg" alt="testimonial-profile-image">
+
+                    <h2>DOMMENI ALBERT</h2>
+                    <h4>Nesnal Design Co.</h4>
+                    <p>Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis
+                        nec, tincidunt ligula.</p>
+
+                    <div class="stars">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                </div>
+                <div class="avis">
+                    <img src="./img/testimonial/img2.jpg" alt="testimonial-profile-image">
+                    <h2>DOMENI GESSON</h2>
+                    <h4>Awesome Technology Co.</h4>
+                    <p>Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis
+                        nec, tincidunt ligula.</p>
+
+                    <div class="stars">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec8">
         <div class="container">
             
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">
+    </script>
 </body>
 
 </html>

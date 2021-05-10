@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-*, ::before, ::after{
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,16 +11,21 @@
     list-style: none;
 }
 
-body{
+body {
     background: #fff;
     font-family: 'Open Sans', sans-serif, 'Arial';
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Arvo', sans-serif;
 }
 
-header{
+header {
     width: 100%;
     padding: 20px 30px;
     position: fixed;
@@ -26,7 +33,7 @@ header{
     background: #fff;
 }
 
-header nav{
+header nav {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
@@ -34,35 +41,35 @@ header nav{
     justify-content: space-between;
 }
 
-header nav img{
+header nav img {
     width: 150px;
     cursor: pointer;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
 }
 
-header nav ul li{
+header nav ul li {
     margin: 0 15px;
     position: relative;
     font-size: 0.9em;
 }
 
-header nav ul li a{
+header nav ul li a {
     color: #333;
     font-weight: bold;
     transition: 0.3s;
     position: relative;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: rgb(238, 65, 12);
 }
 
 /* Section 1 */
 
-.sec1{
+.sec1 {
     padding: 8.50rem 0;
     width: 100%;
     background-image: url('./img/hero-area.svg');
@@ -73,27 +80,27 @@ header nav ul li a:hover{
     overflow: hidden;
 }
 
-.sec1 .container{
+.sec1 .container {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between;
     overflow: hidden;
     padding: 0 10px;
 }
 
-.sec1 .container .left{
+.sec1 .container .left {
     width: 650px;
 }
 
-.sec1 .container .left h2{
+.sec1 .container .left h2 {
     font-size: 2.9em;
     line-height: 60px;
     font-weight: 900;
 }
 
-.sec1 .container .left p{
+.sec1 .container .left p {
     margin: 1rem 0 1.5rem 0;
     color: grey;
     font-weight: 700;
@@ -101,7 +108,7 @@ header nav ul li a:hover{
     line-height: 25px;
 }
 
-.button{
+.button {
     padding: 0.7rem 2rem;
     height: 45px;
     border-radius: 30px;
@@ -111,13 +118,13 @@ header nav ul li a:hover{
     outline: none;
 }
 
-.button.red{
+.button.red {
     background: rgb(238, 65, 12);
     color: white;
     transition: 0.3s;
 }
 
-.button.normal{
+.button.normal {
     margin-left: 1rem;
     background: white;
     border: 2px solid rgb(238, 65, 12);
@@ -125,62 +132,62 @@ header nav ul li a:hover{
     transition: all 0.3s ease-in-out;
 }
 
- .normal:hover{
+.normal:hover {
     background: rgb(238, 65, 12);
     color: white;
 }
 
-.sec1 .container .right img{
+.sec1 .container .right img {
     width: 450px;
 }
 
 
-@media screen and (max-width: 1000px){
-    .sec1 .container{
+@media screen and (max-width: 1000px) {
+    .sec1 .container {
         flex-direction: column;
     }
 
-    .sec1 .container .left{
+    .sec1 .container .left {
         text-align: center;
     }
 
-    .sec1 .container .right{
+    .sec1 .container .right {
         margin-top: 2.5em;
     }
 }
 
 
-@media screen and (max-width: 700px){
-    header nav ul{
+@media screen and (max-width: 700px) {
+    header nav ul {
         display: none;
     }
 }
 
-@media screen and (max-width: 620px){
-    .sec1 .container .left{
+@media screen and (max-width: 620px) {
+    .sec1 .container .left {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 490px){
-    .sec1 .container .right{
+@media screen and (max-width: 490px) {
+    .sec1 .container .right {
         text-align: center;
     }
 
-    .sec1 .container .left h2{
+    .sec1 .container .left h2 {
         font-size: 2.4em;
     }
 
-    .sec1 .container .right img{
+    .sec1 .container .right img {
         width: 100%;
     }
 
-    .sec1 .container .left .btn{
+    .sec1 .container .left .btn {
         display: flex;
         flex-direction: column;
     }
 
-    .sec1 .container .left .btn .button.normal{
+    .sec1 .container .left .btn .button.normal {
         margin: 20px 0 0 0;
 
     }
@@ -188,17 +195,17 @@ header nav ul li a:hover{
 
 /* Section 2 */
 
-.sec2{
+.sec2 {
     padding: 4.25rem 0;
     width: 100%;
 }
 
-.sec2 .container{
+.sec2 .container {
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.title{
+.title {
     text-align: center;
     display: flex;
     align-items: center;
@@ -206,19 +213,19 @@ header nav ul li a:hover{
     flex-direction: column;
 }
 
-.title h2{
+.title h2 {
     font-size: 2em;
     font-weight: bold;
 }
 
-.title .ligne{
+.title .ligne {
     width: 70px;
     height: 2px;
     background: rgb(238, 65, 12);
     margin-top: 0.7rem;
 }
 
-.sec2 .container .content{
+.sec2 .container .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -226,7 +233,7 @@ header nav ul li a:hover{
     margin-top: 1.5em;
 }
 
-.sec2 .container .content .card{
+.sec2 .container .content .card {
     margin: 10px;
     padding: 1.5rem 0.7rem;
     background: white;
@@ -240,7 +247,7 @@ header nav ul li a:hover{
     transition: 0.3s;
 }
 
-.sec2 .container .content .card .rond{
+.sec2 .container .content .card .rond {
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -250,19 +257,19 @@ header nav ul li a:hover{
     transition: 0.3s;
 }
 
-.sec2 .container .content .card:hover{
+.sec2 .container .content .card:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.sec2 .container .content .card:hover .rond{
+.sec2 .container .content .card:hover .rond {
     background: rgb(238, 65, 12);
 }
 
-.sec2 .container .content .card:hover .rond i{
+.sec2 .container .content .card:hover .rond i {
     color: white;
 }
 
-.sec2 .container .content .card .rond i{
+.sec2 .container .content .card .rond i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -272,7 +279,7 @@ header nav ul li a:hover{
     transition: 0.4s;
 }
 
-.sec2 .container .content .card h2{
+.sec2 .container .content .card h2 {
     font-size: 1.1em;
     margin: 1.5rem 0 1rem 0;
     color: #333;
@@ -280,11 +287,11 @@ header nav ul li a:hover{
     transition: 0.2s;
 }
 
-.sec2 .container .content .card h2:hover{
+.sec2 .container .content .card h2:hover {
     color: rgb(238, 65, 12);
 }
 
-.sec2 .container .content .card p{
+.sec2 .container .content .card p {
     color: grey;
     line-height: 25px;
     font-size: 0.9em;
@@ -292,8 +299,8 @@ header nav ul li a:hover{
 }
 
 
-@media screen and (max-width: 1080px){
-    .sec2 .container .content{
+@media screen and (max-width: 1080px) {
+    .sec2 .container .content {
         justify-content: center;
     }
 }
@@ -301,13 +308,13 @@ header nav ul li a:hover{
 
 /* Section 3 */
 
-.sec3{
+.sec3 {
     width: 100%;
     padding: 3.25rem 0;
     background: #f9f9f9;
 }
 
-.sec3 .container{
+.sec3 .container {
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
@@ -315,31 +322,31 @@ header nav ul li a:hover{
     justify-content: space-between;
 }
 
-.sec3 .container .left{
+.sec3 .container .left {
     width: 570px;
     padding: 0 5px;
 }
 
-.sec3 .container .right{
+.sec3 .container .right {
     padding: 0 10px;
 }
 
-.sec3 .container .right img{
+.sec3 .container .right img {
     width: 550px;
 }
 
-.sec3 .container .left h4{
+.sec3 .container .left h4 {
     color: grey;
     font-size: 0.9em;
 }
 
-.sec3 .container .left h2{
+.sec3 .container .left h2 {
     font-size: 2em;
     font-weight: bold;
     margin: 1.5rem 0;
 }
 
-.sec3 .container .left p{
+.sec3 .container .left p {
     margin-bottom: 2rem;
     color: grey;
     font-weight: 600;
@@ -348,33 +355,33 @@ header nav ul li a:hover{
 }
 
 
-@media screen and (max-width: 1000px){
-    .sec3 .container .right img{
+@media screen and (max-width: 1000px) {
+    .sec3 .container .right img {
         width: 450px;
     }
 }
 
-@media screen and (max-width: 850px){
-    .sec3 .container .right img{
+@media screen and (max-width: 850px) {
+    .sec3 .container .right img {
         width: 350px;
     }
 }
 
 
-@media screen and (max-width: 700px){
-    .sec3 .container{
+@media screen and (max-width: 700px) {
+    .sec3 .container {
         flex-direction: column;
     }
 
-    .sec3 .container .left{
-       width: 100%; 
-       padding: 0 20px;
-       margin-bottom: 3em;
+    .sec3 .container .left {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 3em;
     }
 }
 
-@media screen and (max-width: 350px){
-    .sec3 .container .right img{
+@media screen and (max-width: 350px) {
+    .sec3 .container .right img {
         width: 100%;
     }
 }
@@ -382,17 +389,17 @@ header nav ul li a:hover{
 
 /* Section 4 */
 
-.sec4{
+.sec4 {
     width: 100%;
     padding: 4.25rem 0;
     background: rgb(255, 255, 255);
 }
 
-.sec4 .title{
+.sec4 .title {
     margin-bottom: 3em;
 }
 
-.sec4 .container{
+.sec4 .container {
     max-width: 1150px;
     margin: 0 auto;
     display: flex;
@@ -402,41 +409,41 @@ header nav ul li a:hover{
 
 .sec4 .container .left,
 .sec4 .container .mid,
-.sec4 .container .right{
-    max-width: 33,33%;
+.sec4 .container .right {
+    max-width: 33, 33%;
     padding: 0 10px;
 }
 
-.sec4 .container .left .block{
+.sec4 .container .left .block {
     margin-bottom: 1.5rem;
     display: flex;
     text-align: right;
 }
 
-.sec4 .container .left .block .droite{
+.sec4 .container .left .block .droite {
     margin-left: 1rem;
 }
 
-.sec4 .container .mid img{
+.sec4 .container .mid img {
     width: 350px;
 }
 
-.sec4 .container .right .block{
+.sec4 .container .right .block {
     margin-bottom: 1.5rem;
     display: flex;
     text-align: left;
 }
 
-.sec4 .container .right .block .droite{
+.sec4 .container .right .block .droite {
     margin-left: 1rem;
 }
 
-.sec4 .container .block i{
+.sec4 .container .block i {
     font-size: 1.6em;
     color: rgb(238, 65, 12);
 }
 
-.sec4 .container .block{
+.sec4 .container .block {
     padding: 20px 33px;
     width: 100%;
     background: white;
@@ -445,47 +452,366 @@ header nav ul li a:hover{
     border-radius: 3px;
 }
 
-.sec4 .container .block:hover{
+.sec4 .container .block:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-.sec4 .container .block:hover h3{
+.sec4 .container .block:hover h3 {
     color: rgb(238, 65, 12);
 }
 
-.sec4 .container .block h3{
+.sec4 .container .block h3 {
     margin-bottom: 0.9rem;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.sec4 .container .block p{
+.sec4 .container .block p {
     color: grey;
     font-weight: 600;
     opacity: .6;
 }
 
 
-@media screen and (max-width: 950px){
-    .sec4 .container{
+@media screen and (max-width: 950px) {
+    .sec4 .container {
         flex-direction: column;
     }
 
-    .sec4 .container .block{
+    .sec4 .container .block {
         padding: 40px;
     }
 
-    .sec4 .container .mid{
+    .sec4 .container .mid {
         margin: 1.5em 0;
     }
 }
 
 
-@media screen and (max-width: 450px){
-    .sec4 .container .mid img{
+@media screen and (max-width: 450px) {
+    .sec4 .container .mid img {
         width: 100%;
     }
 }
 
 
 /* Section 5 */
+
+.sec5 {
+    width: 100%;
+    padding: 4.25rem 0;
+    background: #f9f9f9;
+}
+
+.sec5 .container {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.3em;
+}
+
+.sec5 .container .card {
+    margin: 20px;
+    background: white;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+    width: 530px;
+    height: 200px;
+    display: flex;
+    transition: 0.3s;
+}
+
+.sec5 .container .card .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec5 .container .card .left {
+    width: 450px;
+}
+
+.sec5 .container .card .right {
+    padding: 15px 20px;
+}
+
+.sec5 .container .card .right h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.sec5 .container .card .right h4 {
+    color: grey;
+    font-weight: normal;
+    margin: 0.5rem 0 0.7rem 0;
+    font-size: 0.9em;
+}
+
+.sec5 .container .card .right p {
+    color: grey;
+    font-size: 1em;
+}
+
+.sec5 .container .card .right .social {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.sec5 .container .card .right .social i {
+    cursor: pointer;
+}
+
+.sec5 .container .card .right .social i:not(:nth-child(1)) {
+    margin-left: 0.5rem;
+}
+
+.sec5 .container .card:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1140px) {
+    .sec5 .container .card {
+        width: 450px;
+    }
+
+    .sec5 .container .card .left {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .sec5 .container .card {
+        width: 530px;
+    }
+
+    .sec5 .container .card .left {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sec5 .container .card {
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .sec5 .container .card .left {
+        width: 100%;
+    }
+}
+
+/* Section 6 */
+
+.sec6 {
+    padding: 4.25rem 0;
+}
+
+.sec6 .container {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.sec6 .container .price {
+    width: 350px;
+    margin: 10px;
+    padding: 1.25rem 2rem;
+    background: white;
+    box-shadow: 5px 5px 10px rgb(202, 202, 202);
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.sec6 .container .price .rond {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    position: relative;
+    transition: 0.3s;
+}
+
+.sec6 .container .price .rond i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    transition: 0.3s;
+    color: rgb(238, 65, 12);
+}
+
+.sec6 .container .price .dollars {
+    margin: 1.5rem 0 1rem 0;
+    color: rgb(165, 165, 165);
+    font-weight: bold;
+}
+
+.sec6 .container .price .dollars span {
+    color: rgb(238, 65, 12);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.sec6 .container .price h3 {
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.3em;
+}
+
+.sec6 .container .price .avantages p {
+    padding-bottom: 1rem;
+    color: rgb(175, 175, 175);
+    font-weight: 600;
+}
+
+.sec6 .container .price button {
+    margin-top: 1.5rem;
+}
+
+.sec6 .container .price.special {
+    box-shadow: 5px 5px 15px rgb(224, 224, 224);
+}
+
+.sec6 .container .price .rond.active {
+    background: rgb(238, 65, 12);
+}
+
+.sec6 .container .price .rond.active i {
+    color: white;
+}
+
+.sec6 .container .price:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sec6 .container .price:hover .rond {
+    background: rgb(238, 65, 12);
+}
+
+.sec6 .container .price:hover .rond i {
+    color: white;
+}
+
+
+@media screen and (max-width: 1110px) {
+    .sec6 .container {
+        justify-content: center;
+    }
+}
+
+
+/* Section 7 */
+
+.sec7 {
+    width: 100%;
+    padding: 4.25rem 0;
+    background: rgb(238, 65, 12);
+}
+
+
+/* Pas besoin d'overflow avec slick */
+.sec7 .container {
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 15px 0 0;
+}
+
+
+/* Spécifié taille slider pour slick sinon il fait n'imp */
+.sec7 .container .slider {
+    width: 100%;
+    height: 100%;
+}
+
+.sec7 .container .slider .avis {
+    width: 330px;
+    padding: 2.5rem 0.7rem 2rem 0.7rem;
+    background: white;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sec7 .container .slider .avis img {
+    border-radius: 50%;
+}
+
+.sec7 .container .slider .avis h2 {
+    font-size: 1.1em;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.sec7 .container .slider .avis p {
+    color: grey;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    font-size: 1em;
+}
+
+.sec7 .container .slider .avis .stars {
+    color: rgb(238, 65, 12);
+    display: flex;
+    font-size: 0.9em;
+}
+
+.sec7 .container .slider .avis .stars i:not(:nth-child(1)) {
+    margin-left: 0.2rem;
+}
+
+/* Permettre de les placer */
+
+.sec7 .container .slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+/* Pour departager l'espace */
+
+.sec7 .container .slider .slick-dots li {
+    margin: 0 0.25rem;
+}
+
+/* Les buttons ui vont apparaitre pour slider */
+
+.sec7 .container .slider .slick-dots button {
+    display: flex;
+    width: 13px;
+    height: 13px;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    text-indent: -9999px;
+}
+
+/* Mettre un style uand c'est active */
+
+.sec7 .container .slider li.slick-active button {
+    border: 4px solid rgb(94, 94, 207);
+}
+
+
+/* Section 8 */
+
+.sec8{
+    width: 100%;
+    padding: 4.25rem 0;
+}
