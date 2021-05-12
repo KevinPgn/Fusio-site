@@ -813,5 +813,175 @@ header nav ul li a:hover {
 
 .sec8{
     width: 100%;
-    padding: 4.25rem 0;
+    padding: 2.25rem 0;
 }
+
+.sec8 .container{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.sec8 .container .left{
+    width: 500px;
+}
+
+.sec8 .container .left h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.sec8 .container .left p{
+    color: #b6b3b3;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 700px){
+    .sec8 .container .left{
+        width: 400px;
+    }
+
+    .sec8 .container .left h1{
+        font-size: 2.2em;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .sec8 .container{
+        flex-direction: column;
+    }
+
+    .sec8 .container .left{
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .sec8 .container .left{
+        width: 100%;
+    }
+}
+
+/* Section 9 */
+
+.sec9{
+    padding: 4.25rem 0;
+    background: #f9f9f9;
+    width: 100%;
+}
+
+.sec9 .container{
+    max-width: 1150px;
+    margin: 50px auto 20px auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.sec9 .container .left{
+    width: 60%;
+}
+
+.sec9 .container .left form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sec9 .container .left form .name{
+    display: flex;
+    width: 100%;
+}
+
+.sec9 .container .left form .name input{
+    width: 50%;
+}
+
+.sec9 .container .left form .name input:nth-child(2){
+    margin-left: 20px;
+}
+
+.sec9 .container .left form textarea{
+    resize: none;
+}
+
+.sec9 .container .left form input{
+    height: 40px;
+}
+
+.sec9 .container .left form input,
+.sec9 .container .left form textarea
+{
+   margin-bottom: 1rem;
+   background: white;
+   border: 2px solid #f1f1f1;
+   cursor: pointer;
+   outline: none;
+   padding: 0.5rem;
+   border-radius: 5px;
+}
+
+.sec9 .container .left form button{
+    width: 170px;
+}
+
+.sec9 .container .right {
+    width: 450px;
+    margin-left: 2rem;
+    position: relative;
+    top: -27px;
+} 
+
+
+@media screen and (max-width: 700px){
+    .sec9 .container{
+        flex-direction: column;
+    }
+
+    .sec9 .container .left{
+        width: 90%;
+    }
+
+    .sec9 .container .right{
+        top: 0;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .sec9 .container .left{
+        width: 100%;
+    }
+
+    .sec9 .container .left form .name{
+        flex-direction: column;
+    }
+
+    .sec9 .container .left form .name input{
+        width: 100%;
+    }
+
+    .sec9 .container .left form .name input:nth-child(2){
+        margin-left: 0;
+    }
+
+    .sec9 .container .right{
+        width: 100%;
+    }
+}
+
+
+/* Footer */
+
